@@ -12,7 +12,7 @@
  
  ```
 from netCDF4 import Dataset
-eg='C:/YoURPATH.../precip.mon.combined.total.v6.nc'
+eg='C:/YoURPATH.../blabla_data.nc'
 data=Dataset(eg, mode='r')
 print data
 ```
