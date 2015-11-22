@@ -10,7 +10,9 @@
  * Windows>Start>Spyder once open create a new project
  * To read the headers of the netcdf file:
  
- ```from netCDF4 import Dataset
+ ```
+from netCDF4 import Dataset
 eg='C:/YoURPATH.../precip.mon.combined.total.v6.nc'
 data=Dataset(eg, mode='r')
-print data```
+print data
+```
